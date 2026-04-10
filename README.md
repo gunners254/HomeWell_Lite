@@ -1,6 +1,49 @@
-## HomeWell Lite – Damp & Mould Risk Prediction Prototype
+# HomeWell Lite – Damp & Mould Risk Decision-Support Prototype
 
-🚧 Prototype — built to explore decision-support, not production deployment
+🚧 Prototype — built to explore decision-support for housing operations, not production deployment
+
+## What this is
+
+HomeWell Lite is an explainable analytics prototype designed to support **damp and mould inspection triage in social housing**.
+
+It demonstrates how data can be used to:
+
+* prioritise inspections
+* identify higher-risk properties
+* support earlier intervention decisions
+
+## Key insight
+
+The modelling shows a clear operational reality:
+
+* Reactive, complaint-linked triage performs best
+* Future risk prediction is weaker but still useful as an exploratory signal
+* Pre-complaint prediction is not currently strong enough for operational use
+
+This reflects real-world data limitations rather than model choice.
+
+## Operational Positioning
+
+This prototype is best used as a **decision-support layer**, not a standalone system.
+
+It should sit upstream of:
+
+* inspection scheduling
+* case review
+* housing officer decision-making
+
+It is designed to support:
+
+* prioritisation of limited inspection capacity
+* triage of incoming complaints
+* early identification of potential escalation
+
+It should not be used as:
+
+* a final decision engine
+* a replacement for case-level judgement
+
+
 
 ## Overview
 
@@ -54,6 +97,24 @@ This prototype uses machine learning models to:
 * Scikit-learn
 * Pandas / NumPy
 * Streamlit
+
+## Why model performance varies
+
+The three modelling modes highlight a key structural challenge:
+
+* Reactive triage performs best because complaint signals are strong and immediate
+* Future damp risk is harder because it relies on weaker proxy signals (EPC + early behaviour)
+* Pre-complaint prediction is weakest due to the lack of early indicators
+
+This is not a modelling issue — it is a **data generation problem**.
+
+Stronger proactive performance would require:
+
+* environmental data (humidity, temperature)
+* repair history
+* property condition surveys
+* tenant vulnerability indicators
+
 
 ## Limitations
 
