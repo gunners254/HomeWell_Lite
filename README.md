@@ -34,10 +34,18 @@ This prototype uses machine learning models to:
 * Simple dashboard interface (Streamlit)
 
 ## Demo Screenshots
-* Reactivetriage.jpeg
-* Futurerisk.jpeg
-* Escalationprioritisation.jpeg
-* Modellimitations.jpeg
+
+### Reactive Triage
+![Reactive Triage](./Reactivetriage.jpeg)
+
+### Future Damp Risk
+![Future Risk](./Futurerisk.jpeg)
+
+### Escalation Prioritisation
+![Escalation](./Escalationprioritisation.jpeg)
+
+### Model Limitations
+![Limitations](./Modellimitations.jpeg)
 
 
 ## Tech Stack
