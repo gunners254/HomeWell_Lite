@@ -33,6 +33,13 @@ This prototype uses machine learning models to:
 * Explainable outputs (feature importance/drivers)
 * Simple dashboard interface (Streamlit)
 
+## Demo Screenshots
+* Reactivetriage.jpeg
+* Futurerisk.jpeg
+* Escalationprioritisation.jpeg
+* Modellimitations.jpeg
+
+
 ## Tech Stack
 
 * Python
