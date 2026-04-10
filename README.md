@@ -40,10 +40,6 @@ This prototype uses machine learning models to:
 * Pandas / NumPy
 * Streamlit
 
-## Demo Screenshots
-
-(Add screenshots here after upload)
-
 ## Limitations
 
 * Synthetic/limited dataset
